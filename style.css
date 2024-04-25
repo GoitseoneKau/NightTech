@@ -197,6 +197,11 @@ p {
 .active{
     opacity: 1;
 }
+    .nav-bar {
+        gap: 450px;
+
+        
+    }
 }
 
 
@@ -247,6 +252,11 @@ p {
 .active{
     opacity: 1;
 }
+    .nav-bar {
+        gap: 0;
+
+        
+    }
 }
 
 @media screen and (max-width:600px) {
@@ -277,6 +287,18 @@ p {
     .active{
         opacity: 1;
     }
+    .nav-bar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0;
+    
+    
+    }
+    
+    #logo {
+        align-items: center;
+    }
 }
 
 
@@ -306,5 +328,17 @@ p {
     .image-section>button:hover{
         font-size: 1em;
         font-weight: 900;
+    }
+
+    .nav-bar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0;
+
+        
+    }
+    #logo {
+        align-items: center;
     }
 }
