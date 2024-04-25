@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Tshepo Mpogeng - Header */
+
+.header {
+    border-bottom: 1px solid black;
+    padding: 16px 0 16px 0;
+}
+
+
+.nav-bar {
+    display: flex;
+    justify-content: space-around;
+    gap: 450px;
+
+    min-height: 70px;
+
+
+}
+
+#logo {
+    display: flex;
+    align-items: center;
+}
+
+#logo > h1 {
+    margin: 0;
+
+}
+
+.nav {
+    padding: 0;
+    margin: 0;
+
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.nav > div > a {
+    font-size: 16px;
+
+    text-transform: uppercase;
+    text-decoration: none;
+
+    color: black;
+}
+
+.nav > div > a:hover {
+    color: blue;
+}
