@@ -52,12 +52,12 @@ body {
     color: rgb(0, 115, 255);
 }
 
-/**/
+/* Ntomfuthi Ntshangase */
 .explaination-section {
     background-color: #fff;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: 60%;/*GK chnage paragraph width*/
+    width: 60%;/*GK change paragraph width*/
     padding: 20px;
     margin: 0 auto; 
 }
@@ -71,6 +71,18 @@ p {
     margin-bottom: 20px;
 }
 
+/* Media Query for Responsive Design */
+@media screen and (max-width: 768px) {
+    .explanation-section {
+        width: 90%; 
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .explanation-section {
+        width: 95%; 
+    }
+}
 /*Goitseone Kau*/
 .image-section{
     display: flex;
