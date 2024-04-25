@@ -4,11 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fontawesome-free-6.5.2-web/css/fontawesome.css">
+    <link rel="stylesheet" href="fontawesome-free-6.5.2-web/css/all.css">
     <title>Document</title>
 </head>
 <body>
     <!--Tshepo Mpogeng - Header-->
-    <div class="header">
+    <div class="navbar-section">
         <div class="nav-bar">
             <div id="logo">
                 <h1>NightTech</h1>
@@ -20,12 +22,38 @@
             </div>
         </div>
     </div>
-    <div class="card">
+    <!---->
+    <div class="explaination-section">
         <h1>Internet Of Things (IoT)</h1>
+        <h2>What is it?</h2>
         <p>The Internet of Things (IoT) encompasses a network of physical objects embedded with sensors, software, and connectivity, facilitating data collection and sharing. These IoT devices, ranging from household gadgets to industrial machinery, enable communication among themselves and with internet-connected devices, forming an extensive network capable of autonomous tasks. Applications span various sectors like agriculture, transportation, healthcare, and manufacturing, revolutionizing operations and interactions.</p>
         <p>Enterprises leverage IoT to monitor parameters such as temperature and machine performance, using real-time data analysis to optimize operations and enhance profitability. As IoT continues to proliferate, its transformative impact on society and industries is poised to expand further, reshaping how we live, work, and engage with technology.
             The potential applications of IoT are vast and varied, and its impact is already being felt across a wide range of industries, including manufacturing, transportation, healthcare, and agriculture. As the number of internet-connected devices continues to grow, IoT is likely to play an increasingly important role in shaping our world, transforming the way that we live, work, and interact with each other.
         </p>
     </div>
+    <!--Goitseone Kau - Image Slider-->
+    <div class="image-section" id="image-section">
+        <div  style="background-image:url('images/iot-3337536_1920.png'); "                class="slide active">
+            <p class="title">IOT</p>
+        </div>
+        <div  style="background-image:url('images/Global-Smart-Home-Security-Safety-Systems-Market.jpeg') "                 class="slide ">
+            <p class="title">secured and monitored <br> from your device </p>
+        </div>
+        <div  style="background-image:url('images/thanit2022february_16.jpg')"   class="slide">
+            <p class="title">Drive your vehicle remotely</p>
+        </div>
+        <div  style="background-image:url('images/carnot.jpg') "                                                      class="slide">
+            <p class="title">Receive vehicle diagnoses <br>via app</p>
+        </div>
+        <div  style="background-image:url('images/iot-on-mobile-app-development.jpg') "                               class="slide">
+            <p class="title">Keep your devices<br>connected over the internet</p>
+        </div>
+        <div  style="background-image:url('images/mobile-iot-app.jpg') "                                              class="slide">
+            <p class="title">Control your home <br> at your finger tips</p>
+        </div>
+        <button id="left" class="left-arrow"><i class="fa fa-chevron-left" aria-hidden="true"></i></button>
+        <button id="right" class="right-arrow"><i class="fa fa-chevron-right" aria-hidden="true"></i></button>
+    </div>
+    <script src="main.js"></script>
 </body>
 </html>
