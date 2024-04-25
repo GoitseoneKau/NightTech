@@ -57,7 +57,7 @@ body {
     background-color: #fff;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: 60%;/*GK change paragraph width*/
+    width: 60%;/*GK chanage paragraph width*/
     padding: 20px;
     margin: 0 auto; 
 }
@@ -209,11 +209,6 @@ p {
 .active{
     opacity: 1;
 }
-    .nav-bar {
-        gap: 450px;
-
-        
-    }
 }
 
 
@@ -264,11 +259,6 @@ p {
 .active{
     opacity: 1;
 }
-    .nav-bar {
-        gap: 0;
-
-        
-    }
 }
 
 @media screen and (max-width:600px) {
@@ -299,18 +289,6 @@ p {
     .active{
         opacity: 1;
     }
-    .nav-bar {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 0;
-    
-    
-    }
-    
-    #logo {
-        align-items: center;
-    }
 }
 
 
@@ -340,17 +318,5 @@ p {
     .image-section>button:hover{
         font-size: 1em;
         font-weight: 900;
-    }
-
-    .nav-bar {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 0;
-
-        
-    }
-    #logo {
-        align-items: center;
     }
 }
