@@ -320,3 +320,78 @@ p {
         font-weight: 900;
     }
 }
+/*Matlhogonolo - Naoa - Cards*/
+.cards-name{
+    text-align: center;
+    color: black;
+}
+.row{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 60px;
+    
+}
+.flip-card{
+    background-color: transparent;
+    width: 600px;
+    height: 600px;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px;
+    
+}
+.flip-card-inner{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+}
+.flip-card:hover .flip-card-inner{
+    transform: rotateY(180deg)
+}
+.flip-card-front, .flip-card-back{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+
+}
+.flip-card-back{
+background:linear-gradient(45deg,lightblue,rgb(30, 60, 143)) ;
+color: #d8d8d8;
+transform: rotateY(180deg);
+}
+.card-heading{
+    color: white;
+}
+.sell-par{
+    font-style: italic;
+    margin-top: 20px;
+    color: red;
+    padding:20px;
+    align-items: end;
+}
+.info{
+    font-size: 26px;
+    text-align: justify;
+    padding: 20px;
+    align-items: center;
+}
+img {
+    object-fit: cover;
+}
+.buy-btn{
+    background-color: blue;
+    color: white;
+    width: 150px;
+    height: 50px;
+    border-radius: 50px;
+    margin-top: 20px;
+    font-size: large;
+}
+.buy-btn:hover{
+    background-color: red;
+    cursor: pointer; 
+}
