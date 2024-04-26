@@ -1,5 +1,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+html{
+    scroll-behavior: smooth;/*Gk addition*/
+}
 
 body {
     margin: 0;
@@ -21,7 +24,11 @@ body {
     justify-content: space-around;
     gap: 450px;
     min-height: 70px;
-    width: 100%;/*Gk edit*/
+    /*Gk edit*/
+    width: 100%;
+    position: fixed;
+    top: 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 #logo {
@@ -50,6 +57,9 @@ body {
 
 .nav > div > a:hover {
     color: rgb(0, 115, 255);
+    border-bottom: 2px solid rgb(0, 115, 255);
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
 }
 
 /* Ntomfuthi Ntshangase */
@@ -59,7 +69,7 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     width: 60%;/*GK chanage paragraph width*/
     padding: 20px;
-    margin: 0 auto; 
+    margin: 80px auto; 
 }
 
 h1 {
