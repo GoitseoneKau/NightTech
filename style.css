@@ -405,3 +405,31 @@ img {
     background-color: red;
     cursor: pointer; 
 }
+/*footer By Hilaire*/
+#tdlink {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+#resizelinks {
+    font-size : 50px; 
+       
+}
+@keyframes footmove {
+    from{
+        background-color: whitesmoke;
+    }
+    to{
+        background-color: lightseagreen;
+    }
+}
+.footerpage {
+    background-color: blanchedalmond;
+    margin: 0%;
+    animation: footmove 5s linear infinite;
+}
+#myMap{
+    width:300px;
+    height:100px;
+    border:0;
+    padding-left: 600px;
+}
