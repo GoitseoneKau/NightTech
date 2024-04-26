@@ -29,6 +29,8 @@ body {
     position: fixed;
     top: 0;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index:2;
+    background-color: rgba(255, 255, 255, 0.733);
 }
 
 #logo {
@@ -334,21 +336,21 @@ p {
 .cards-name{
     text-align: center;
     color: black;
+    margin-bottom: 5px;
 }
 .row{
     display: flex;
     justify-content: space-evenly;
     margin: 60px;
-    
 }
 .flip-card{
     background-color: transparent;
-    width: 600px;
-    height: 600px;
+    width: 300px;
+    height: 300px;
     border: 1px solid #f1f1f1;
     perspective: 1000px;
-    
 }
+
 .flip-card-inner{
     position: relative;
     width: 100%;
@@ -366,43 +368,50 @@ p {
     height: 100%;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 }
 .flip-card-back{
-background:linear-gradient(45deg,lightblue,rgb(30, 60, 143)) ;
-color: #d8d8d8;
-transform: rotateY(180deg);
+    background-color:rgba(0, 115, 255, 0.46) ;
+    color: #d8d8d8;
+    transform: rotateY(180deg);
+    padding: 2px;
 }
 .card-heading{
     color: white;
+    margin: 5px 0px;
 }
 .sell-par{
     font-style: italic;
-    margin-top: 20px;
+    font-size:16px;
+    margin-top: 5px;
     color: red;
-    padding:20px;
+    padding:10px;
     align-items: end;
 }
-.info{
-    font-size: 26px;
+p.info{
+    color: white;
+    font-size: 14px;
     text-align: justify;
-    padding: 20px;
+    padding: 10px;
     align-items: center;
+    margin: 5px 0px;
 }
 img {
     object-fit: cover;
 }
 .buy-btn{
-    background-color: blue;
-    color: white;
+    background-color:white;
+    color: rgb(0, 115, 255);
     width: 150px;
-    height: 50px;
+    height: 40px;
     border-radius: 50px;
-    margin-top: 20px;
+    margin-top: 5px;
     font-size: large;
 }
 .buy-btn:hover{
-    background-color: red;
+    background-color: black;
+    color: white;
     cursor: pointer; 
 }
 /*footer By Hilaire*/
@@ -411,21 +420,21 @@ img {
     padding-right: 50px;
 }
 #resizelinks {
-    font-size : 50px; 
-       
+    font-size : 50px;      
 }
 @keyframes footmove {
     from{
         background-color: whitesmoke;
     }
     to{
-        background-color: lightseagreen;
+        background-color: rgb(0, 115, 255);;
     }
 }
 .footerpage {
-    background-color: blanchedalmond;
-    margin: 0%;
-    animation: footmove 5s linear infinite;
+    background-color: rgb(255, 255, 255);
+    margin-top: 150px;
+    /*animation: footmove 5s linear infinite;*/
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 #myMap{
     width:300px;
